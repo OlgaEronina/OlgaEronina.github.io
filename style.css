@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+#calendar-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-self: center;
+  /* width: 1000px; */
+  padding: 10px; }
+
+#calendar-header {
+  font-family: Arial, sans-seriff;
+  margin-bottom: 15px;
+  color: #fff;
+  background: #6DE754;
+  height: 50px;
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center; }
+
+table {
+  font-family: Arial, sans-seriff; }
+  table td {
+    border: 1px dotted #000000;
+    width: 100px;
+    height: 77px; }
+
+#calendar-month-year {
+  font-weight: 700; }
+
+.fa-arrow-left:before {
+  content: "\f060";
+  padding: 5px; }
+
+.fa-arrow-right:before {
+  content: "\f061";
+  padding: 5px; }
+
+.currentDate {
+  background: #4ed7ec; }
+
+/*# sourceMappingURL=style.css.map */
